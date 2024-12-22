@@ -26,7 +26,6 @@ ul {
 }
 .container-one {
     display: flex;
-    align-items: center;
 }
 .top-nav-bar {
     border-bottom: 1px solid #e7e9fc;
@@ -175,18 +174,23 @@ ul {
     padding-bottom: 120px;
     padding-left: 156px;
     display: flex;
-    gap: 8px;
+    gap: 24px;
     flex-wrap: nowrap;
     width: 1128px;
     height: 104px;
 }
-.second-section-list-title {
+.about-us-list {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    width: 264px;
+    height: 24px;
     margin-bottom: 8px;
+}
+.about-us-li {
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .second-section .text{
     font-size: 16px;
@@ -211,6 +215,7 @@ ul {
     justify-content: center;
     width: 162px;
     height: 40px;
+    margin-bottom: 72px;
 }
 .third-section-list .list-item {
     background-color: #FFFFFF;
