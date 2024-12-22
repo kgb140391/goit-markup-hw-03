@@ -87,11 +87,6 @@ ul {
 .contact {
     font-style: normal; 
 }
-.container-two {
- display: flex;
-align-items: center;
-justify-content: space-between;
-}
 
 .contact-list{
     display: flex;
