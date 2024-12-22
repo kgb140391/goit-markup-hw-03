@@ -24,6 +24,10 @@ ul {
     width: 1158px;
     margin: 0 auto;
 }
+.container-one {
+    display: flex;
+    align-items: center;
+}
 .top-nav-bar {
     border-bottom: 1px solid #e7e9fc;
     display: flex;
@@ -38,7 +42,6 @@ ul {
     flex-direction: row;
     justify-content: space-between;
     gap: 40px;
-    align-items: center;
 }
 .studio-logo {
     display: flex;
@@ -82,15 +85,19 @@ ul {
     color: #404bbf;
 }
 .contact {
-    font-style: normal;
-    justify-content: space-between;
-    flex-direction: row;
-    display: flex;
+    font-style: normal; 
 }
-.contact-list {
+.container-two {
+ display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.contact-list{
     display: flex;
     gap: 40px;
     align-items: center;
+    flex-direction: row;
 }
 .contact-link {
     font-size: 16px;
