@@ -83,11 +83,12 @@ ul {
 }
 .contact {
     font-style: normal;
+    justify-content: space-between;
+    flex-direction: row;
+    display: flex;
 }
 .contact-list {
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
     gap: 40px;
     align-items: center;
 }
@@ -136,7 +137,6 @@ ul {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     color:#FFFFFF
-    background-color: #4D5AE5
     line-height: 1.5;
     letter-spacing: 0,04em;
     cursor:pointer;
@@ -150,6 +150,7 @@ ul {
     top: 428px;
     left: 636px;
     display: block;
+    background-color: #4d5ae5; 
 }
 
 .first-section-button:hover,
@@ -159,6 +160,7 @@ ul {
 .second-section {
     flex-direction: row;
     display: flex;
+    padding: 120px 0;
 }
 .about-us {
     margin: 0;
@@ -177,6 +179,7 @@ ul {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .second-section .text{
     font-size: 16px;
@@ -188,6 +191,7 @@ ul {
 }
 .third-section {
     background-color: #f4f4fd;
+    padding: 120px 0;
 }
 .third-section-title {
     font-size: 36px;
@@ -228,6 +232,9 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+.forth-section {
+    padding: 120px 0;
 }
 .forth-section-title {   
     font-size: 36px;
