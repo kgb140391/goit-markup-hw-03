@@ -91,7 +91,6 @@ ul {
     gap: 40px;
     align-items: center;
 }
-
 .contact-link {
     font-size: 16px;
     line-height: 1.5;
@@ -118,7 +117,7 @@ ul {
     padding: 188px 0;
 }
 .first-section-title {
-    width: 496px;
+    max-width: 496px;
     height: 120px;
     margin-top: 188px;
     margin-left: 472px;
@@ -141,21 +140,18 @@ ul {
     line-height: 1.5;
     letter-spacing: 0,04em;
     cursor:pointer;
-}
-.first-section-button {
-    width: 169px;
+    min-width: 169px;
     height: 56px;
+    border: none;
+    border-radius: 4px;
+    padding: 16px 32px 32px 10px;
+    gap: 10px;
+    margin: 0 auto;
     top: 428px;
     left: 636px;
-    padding: 16px 32px 16px 32px;
-    gap: 10px; 
-    display: inline-block;
-    flex-direction: column;
-    position: absolute;
-    bottom: 356px;
-    right: 636px;
-    left: 635px;
+    display: block;
 }
+
 .first-section-button:hover,
 .first-section-button:focus {
     background-color: #404bbf;
@@ -163,7 +159,6 @@ ul {
 .second-section {
     flex-direction: row;
     display: flex;
-    
 }
 .about-us {
     margin: 0;
