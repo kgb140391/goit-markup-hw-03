@@ -77,15 +77,15 @@ ul {
 .nav-logo span {
     color: #2e2f42;
 }
-.nav-list-item-list{
+.menu-item {
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.02em;
     color: #2e2f42;
     line-height: 1.5;
 }
-.nav-list-item-list .link:hover,
-.nav-list-item-list .link:focus {
+.menu-item.link:hover,
+.menu-item.link:focus {
     color: #404bbf;
 }
 .contact {
