@@ -24,6 +24,9 @@ ul {
     width: 1158px;
     margin: 0 auto;
 }
+img {
+    display: block;
+}
 
 .top-nav-bar {
     border-bottom: 1px solid #e7e9fc;
@@ -36,7 +39,7 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
- } 
+} 
 
 .main-nav-bar {
     display: flex;
@@ -168,8 +171,20 @@ ul {
     display: flex;
     padding: 120px 0;
 }
+.visually-hidden-second-section-title {
+    visibility: hidden;
+    opacity: 0;
+}
+.second-title {
+    width: 264px;
+    height: 24px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
 .about-us {
-    margin: 0;
     padding-top: 120px;
     padding-bottom: 120px;
     padding-left: 156px;
@@ -186,13 +201,13 @@ ul {
     letter-spacing: 0.02em;
     color: #2e2f42;
     width: 264px;
-    height: 24px;
-    margin-bottom: 8px;
+    height: 72px;
+    flex-basis: calc((100% - 3 * 24px) / 4);
+    position: relative;
 }
-.about-us-li {
-    width calc((100% - 3 * 24px) / 4);
-}
-.second-section .text{
+
+.second-text {
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
